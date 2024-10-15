@@ -8,7 +8,7 @@ const parse = async (opts) => {
   }
 
   const json = await parser.parse({
-    filePath: opts.path,
+    path: opts.path,
     options: {
       password: _.trimToUndefined(opts.password) 
     }
