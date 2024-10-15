@@ -24,6 +24,54 @@ const json = await xlsxToJson({
 - `path` (string, required): Path to the Excel file.
 - `password` (string, optional): Password to open the Excel file.
 
+## Output
+
+
+The output is a JSON object with the following structure:
+
+```json
+{
+  "path": "path/to/excel/file.xlsx",
+  "sheets": [
+    {
+      "id": 0,
+      "name": "Sheet 1",
+      "rows": [
+        {
+          "id": 1,
+          "cells": [
+            {
+              "id": 2,
+              "value": "Name"
+            },
+            {
+              "id": 3,
+              "value": "Email Address"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "cells": [
+            {
+              "id": 1,
+              "value": 1
+            },
+            {
+              "id": 2,
+              "value": "Joe Blow"
+            },
+            {
+              "id": 3,
+              "value": "joe.blow@nowhere.com"
+            }
+          ]
+        },
+      ]
+  }
+}
+```
+
 ## Contact Information
 
 If you ever need a hand or have any questions, feel free to reach out.  
