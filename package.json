@@ -1,11 +1,21 @@
 {
   "name": "xlsx-to-json-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Exact Password-Protected Excel (XLS/XLSX) Files to JSON",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
+  "repository": {
+    "type": "git",
+    "url" : "git+https://github.com/FredLackey/xlsx-to-json-parser.git"
+  },
+  "bugs"   : {
+    "url": "https://github.com/FredLackey/xlsx-to-json-parser/issues"
+  },
+  "homepage" : "https://github.com/FredLackey/xlsx-to-json-parser#readme",
+  
   "keywords": [
     "excel",
     "xls",
